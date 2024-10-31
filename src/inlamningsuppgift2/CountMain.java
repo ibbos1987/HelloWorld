@@ -1,7 +1,5 @@
 package inlamningsuppgift2;
 
-import java.util.Scanner;
-
 public class CountMain {
     public static void main(String[] args) {
 
@@ -14,7 +12,7 @@ public class CountMain {
         //skriver ut dessa rader och hämtar infon från CountLogik
         System.out.println("Antal rader: " + count.getAntalRader());
         System.out.println("Antal tecken: " + count.getAntalTecken());
-        System.out.println("Antal ord: " + count.getAntalOrdArray());
+        System.out.println("Antal ord: " + count.getAntalOrd());
         System.out.println("Längsta ordet är: " + count.getLangstaOrd());
 
     }
