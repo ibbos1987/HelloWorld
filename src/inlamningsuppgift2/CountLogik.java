@@ -41,9 +41,9 @@ public class CountLogik {
         //For loop för att göra en itteration som hittar det längsta ordet
         for (int i = 0; i < ordArray.length; i++) {
             String ord = ordArray[i]; //lägg in orden i varibeln ord
-            if (ord.length() > langstaOrd.length()) ;//om ord är längre än tidigare ord
+            if (ord.length() > langstaOrd.length()){//om ord är längre än tidigare ord
             //så blir längsta ord det ordet
-            langstaOrd = ord;
+            langstaOrd = ord;}
 
         }
 
