@@ -8,43 +8,43 @@ public class CountTest {
 
     @Test
     void testAntalTecken() {
-        CountLogik countLogik = new CountLogik();
+        CountLogik count = new CountLogik();
 
-        countLogik.counter("hej");
-        countLogik.counter("jag heter staffan");
+        count.counter("hej");
+        count.counter("jag heter staffan");
 
-        assertEquals(20, countLogik.getAntalTecken());
+        assertEquals(20, count.getAntalTecken());
     }
 
     @Test
     void testAntalRader() {
-        CountLogik countLogik = new CountLogik();
+        CountLogik count = new CountLogik();
 
-        countLogik.counter("hej");
-        countLogik.counter("jag heter staffan");
+        count.counter("hej");
+        count.counter("jag heter staffan");
 
-        assertEquals(2, countLogik.getAntalRader());
+        assertEquals(2, count.getAntalRader());
 
     }
 
     @Test
     void testAntalOrd() {
-        CountLogik countLogik = new CountLogik();
+        CountLogik count = new CountLogik();
 
-        countLogik.counter("hej");
-        countLogik.counter("jag heter staffan");
+        count.counter("hej");
+        count.counter("jag heter staffan");
 
-        assertEquals(4, countLogik.getAntalOrd());
+        assertEquals(4, count.getAntalOrd());
 
     }
 
     @Test
     void testLangstaOrd() {
-        CountLogik countLogik = new CountLogik();
+        CountLogik count = new CountLogik();
 
-        countLogik.counter("hej");
-        countLogik.counter("jag heter staffan");
+        count.counter("hej");
+        count.counter("jag heter staffan");
 
-        assertEquals("staffan", countLogik.getLangstaOrd());
+        assertEquals("staffan", count.getLangstaOrd());
     }
 }
