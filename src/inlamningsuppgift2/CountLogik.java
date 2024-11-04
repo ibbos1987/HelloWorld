@@ -23,7 +23,7 @@ public class CountLogik {
 
             //när stop skrivs lägg då in informationen i respektive variabel
             if (!input.equalsIgnoreCase("stop")) {//om inläsning inte är stop
-                counter(input);//lägger till inläsning till counter
+                counter(input);//anropar counter metoden för varje rad som inte är stop
             }
         } while (!input.equalsIgnoreCase("stop"));// gör så länge stop inte finns
 
