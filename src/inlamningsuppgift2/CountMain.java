@@ -3,7 +3,7 @@ package inlamningsuppgift2;
 public class CountMain {
     public static void main(String[] args) {
 
-        // klass
+        // klass /variabel /operator /konstruktor
         CountLogik count = new CountLogik();
 
         count.inMatning();//hämtar input från metoden inMatning i CountLogik
